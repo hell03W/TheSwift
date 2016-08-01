@@ -1,13 +1,16 @@
 //
-//  TTFristTreeStructController.h
+//  BaseController.h
 //  TestCoreAnimation
 //
 //  Created by  www.6dao.cc on 16/7/30.
 //  Copyright © 2016年 Walden. All rights reserved.
 //
 
-#import "BaseController.h"
+#import <UIKit/UIKit.h>
 
-@interface TTFristTreeStructController : BaseController
+@interface BaseController : UIViewController
+
+
+- (void)configUI;
 
 @end

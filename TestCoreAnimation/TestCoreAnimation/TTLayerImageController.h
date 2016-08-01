@@ -1,5 +1,5 @@
 //
-//  TTFristTreeStructController.h
+//  TTLayerImageController.h
 //  TestCoreAnimation
 //
 //  Created by  www.6dao.cc on 16/7/30.
@@ -8,6 +8,6 @@
 
 #import "BaseController.h"
 
-@interface TTFristTreeStructController : BaseController
+@interface TTLayerImageController : BaseController
 
 @end

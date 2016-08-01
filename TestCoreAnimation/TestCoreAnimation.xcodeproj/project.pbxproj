@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3562FEE41D4EE19300D9C26E /* TTVisualEffectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3562FEE31D4EE19300D9C26E /* TTVisualEffectController.m */; };
+		3562FEE61D4EF85000D9C26E /* account_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3562FEE51D4EF85000D9C26E /* account_selected@3x.png */; };
+		3562FEE81D4EF85800D9C26E /* account_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3562FEE71D4EF85800D9C26E /* account_selected@2x.png */; };
+		3562FEEC1D4F304A00D9C26E /* TTAboutShapeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3562FEEB1D4F304A00D9C26E /* TTAboutShapeController.m */; };
 		356A33421D4C4E880022414B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 356A33411D4C4E880022414B /* main.m */; };
 		356A33451D4C4E880022414B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 356A33441D4C4E880022414B /* AppDelegate.m */; };
 		356A33481D4C4E880022414B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356A33471D4C4E880022414B /* ViewController.m */; };
@@ -17,6 +21,9 @@
 		356A335E1D4C4E890022414B /* TestCoreAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 356A335D1D4C4E890022414B /* TestCoreAnimationTests.m */; };
 		356A33691D4C4E890022414B /* TestCoreAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 356A33681D4C4E890022414B /* TestCoreAnimationUITests.m */; };
 		356A33791D4C54950022414B /* TTFristTreeStructController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356A33781D4C54950022414B /* TTFristTreeStructController.m */; };
+		356A337D1D4C6AC40022414B /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356A337C1D4C6AC40022414B /* BaseController.m */; };
+		356A33811D4C8FD60022414B /* TTLayerImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356A33801D4C8FD60022414B /* TTLayerImageController.m */; };
+		356A33831D4C916D0022414B /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 356A33821D4C916D0022414B /* image1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3562FEE21D4EE19300D9C26E /* TTVisualEffectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTVisualEffectController.h; sourceTree = "<group>"; };
+		3562FEE31D4EE19300D9C26E /* TTVisualEffectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTVisualEffectController.m; sourceTree = "<group>"; };
+		3562FEE51D4EF85000D9C26E /* account_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account_selected@3x.png"; sourceTree = "<group>"; };
+		3562FEE71D4EF85800D9C26E /* account_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account_selected@2x.png"; sourceTree = "<group>"; };
+		3562FEEA1D4F304A00D9C26E /* TTAboutShapeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAboutShapeController.h; sourceTree = "<group>"; };
+		3562FEEB1D4F304A00D9C26E /* TTAboutShapeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAboutShapeController.m; sourceTree = "<group>"; };
 		356A333D1D4C4E880022414B /* TestCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		356A33411D4C4E880022414B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		356A33431D4C4E880022414B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +69,11 @@
 		356A336A1D4C4E890022414B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		356A33771D4C54950022414B /* TTFristTreeStructController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFristTreeStructController.h; sourceTree = "<group>"; };
 		356A33781D4C54950022414B /* TTFristTreeStructController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFristTreeStructController.m; sourceTree = "<group>"; };
+		356A337B1D4C6AC40022414B /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		356A337C1D4C6AC40022414B /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		356A337F1D4C8FD60022414B /* TTLayerImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLayerImageController.h; sourceTree = "<group>"; };
+		356A33801D4C8FD60022414B /* TTLayerImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLayerImageController.m; sourceTree = "<group>"; };
+		356A33821D4C916D0022414B /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +101,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3562FEE11D4EE12600D9C26E /* 第三章_视觉效果 */ = {
+			isa = PBXGroup;
+			children = (
+				3562FEE71D4EF85800D9C26E /* account_selected@2x.png */,
+				3562FEE51D4EF85000D9C26E /* account_selected@3x.png */,
+				3562FEE21D4EE19300D9C26E /* TTVisualEffectController.h */,
+				3562FEE31D4EE19300D9C26E /* TTVisualEffectController.m */,
+			);
+			name = "第三章_视觉效果";
+			sourceTree = "<group>";
+		};
+		3562FEE91D4F300100D9C26E /* 第四章_图形几何学 */ = {
+			isa = PBXGroup;
+			children = (
+				3562FEEA1D4F304A00D9C26E /* TTAboutShapeController.h */,
+				3562FEEB1D4F304A00D9C26E /* TTAboutShapeController.m */,
+			);
+			name = "第四章_图形几何学";
+			sourceTree = "<group>";
+		};
 		356A33341D4C4E880022414B = {
 			isa = PBXGroup;
 			children = (
@@ -111,11 +149,11 @@
 				356A33441D4C4E880022414B /* AppDelegate.m */,
 				356A33461D4C4E880022414B /* ViewController.h */,
 				356A33471D4C4E880022414B /* ViewController.m */,
-				356A33491D4C4E880022414B /* Main.storyboard */,
 				356A334F1D4C4E880022414B /* Assets.xcassets */,
-				356A33511D4C4E880022414B /* LaunchScreen.storyboard */,
 				356A33541D4C4E880022414B /* Info.plist */,
 				356A334C1D4C4E880022414B /* TestCoreAnimation.xcdatamodeld */,
+				356A33511D4C4E880022414B /* LaunchScreen.storyboard */,
+				356A33491D4C4E880022414B /* Main.storyboard */,
 				356A33401D4C4E880022414B /* Supporting Files */,
 			);
 			path = TestCoreAnimation;
@@ -124,6 +162,8 @@
 		356A33401D4C4E880022414B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				356A337B1D4C6AC40022414B /* BaseController.h */,
+				356A337C1D4C6AC40022414B /* BaseController.m */,
 				356A33411D4C4E880022414B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,6 +190,9 @@
 		356A33761D4C530B0022414B /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				3562FEE91D4F300100D9C26E /* 第四章_图形几何学 */,
+				3562FEE11D4EE12600D9C26E /* 第三章_视觉效果 */,
+				356A337E1D4C8FB30022414B /* 第二章_寄宿图 */,
 				356A337A1D4C549F0022414B /* 第一章_图层的树状结构 */,
 			);
 			name = Items;
@@ -162,6 +205,16 @@
 				356A33781D4C54950022414B /* TTFristTreeStructController.m */,
 			);
 			name = "第一章_图层的树状结构";
+			sourceTree = "<group>";
+		};
+		356A337E1D4C8FB30022414B /* 第二章_寄宿图 */ = {
+			isa = PBXGroup;
+			children = (
+				356A33821D4C916D0022414B /* image1.png */,
+				356A337F1D4C8FD60022414B /* TTLayerImageController.h */,
+				356A33801D4C8FD60022414B /* TTLayerImageController.m */,
+			);
+			name = "第二章_寄宿图";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +320,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				356A33831D4C916D0022414B /* image1.png in Resources */,
+				3562FEE81D4EF85800D9C26E /* account_selected@2x.png in Resources */,
 				356A33531D4C4E880022414B /* LaunchScreen.storyboard in Resources */,
+				3562FEE61D4EF85000D9C26E /* account_selected@3x.png in Resources */,
 				356A33501D4C4E880022414B /* Assets.xcassets in Resources */,
 				356A334B1D4C4E880022414B /* Main.storyboard in Resources */,
 			);
@@ -296,8 +352,12 @@
 			files = (
 				356A33481D4C4E880022414B /* ViewController.m in Sources */,
 				356A33791D4C54950022414B /* TTFristTreeStructController.m in Sources */,
+				3562FEE41D4EE19300D9C26E /* TTVisualEffectController.m in Sources */,
+				356A33811D4C8FD60022414B /* TTLayerImageController.m in Sources */,
 				356A33451D4C4E880022414B /* AppDelegate.m in Sources */,
 				356A33421D4C4E880022414B /* main.m in Sources */,
+				3562FEEC1D4F304A00D9C26E /* TTAboutShapeController.m in Sources */,
+				356A337D1D4C6AC40022414B /* BaseController.m in Sources */,
 				356A334E1D4C4E880022414B /* TestCoreAnimation.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +582,7 @@
 				356A336F1D4C4E890022414B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		356A33701D4C4E890022414B /* Build configuration list for PBXNativeTarget "TestCoreAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +591,7 @@
 				356A33721D4C4E890022414B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		356A33731D4C4E890022414B /* Build configuration list for PBXNativeTarget "TestCoreAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +600,7 @@
 				356A33751D4C4E890022414B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

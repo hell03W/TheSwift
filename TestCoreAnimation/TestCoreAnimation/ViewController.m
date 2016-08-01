@@ -39,14 +39,20 @@
 - (NSArray *)dataArray {
     
     if (!_dataArray) {
-        _dataArray = @[@"第一章 图层的树状结构"];
+        _dataArray = @[@"第一章 图层的树状结构",
+                       @"第二章 寄宿图",
+                       @"第三章 视觉效果",
+                       @"第四章 图形几何学"];
     }
     return _dataArray;
 }
 - (NSArray *)classArray {
     
     if (!_classArray) {
-        _classArray = @[@"TTFristTreeStructController"];
+        _classArray = @[@"TTFristTreeStructController",
+                        @"TTLayerImageController",
+                        @"TTVisualEffectController",
+                        @"TTAboutShapeController"];
     }
     return _classArray;
 }
@@ -60,6 +66,7 @@
     
     cell.textLabel.text = self.dataArray[indexPath.row];
     
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
