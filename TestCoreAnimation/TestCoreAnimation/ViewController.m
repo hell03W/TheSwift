@@ -42,7 +42,8 @@
         _dataArray = @[@"第一章 图层的树状结构",
                        @"第二章 寄宿图",
                        @"第三章 视觉效果",
-                       @"第四章 图形几何学"];
+                       @"第四章 图形几何学",
+                       @"第五章 变换"];
     }
     return _dataArray;
 }
@@ -52,7 +53,8 @@
         _classArray = @[@"TTFristTreeStructController",
                         @"TTLayerImageController",
                         @"TTVisualEffectController",
-                        @"TTAboutShapeController"];
+                        @"TTAboutShapeController",
+                        @"TTTransformController"];
     }
     return _classArray;
 }
