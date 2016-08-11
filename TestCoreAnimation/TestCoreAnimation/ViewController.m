@@ -43,7 +43,9 @@
                        @"第二章 寄宿图",
                        @"第三章 视觉效果",
                        @"第四章 图形几何学",
-                       @"第五章 变换"];
+                       @"第五章 变换",
+                       @"第六章 专用图层",
+                       @"第七章 隐式动画"];
     }
     return _dataArray;
 }
@@ -54,7 +56,9 @@
                         @"TTLayerImageController",
                         @"TTVisualEffectController",
                         @"TTAboutShapeController",
-                        @"TTTransformController"];
+                        @"TTTransformController",
+                        @"TTSpecialLayerController",
+                        @"TTHiddenAnimationController"];
     }
     return _classArray;
 }

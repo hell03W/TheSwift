@@ -25,6 +25,9 @@
 		356A33811D4C8FD60022414B /* TTLayerImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356A33801D4C8FD60022414B /* TTLayerImageController.m */; };
 		356A33831D4C916D0022414B /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 356A33821D4C916D0022414B /* image1.png */; };
 		356B0B001D5B0A6800DCE3A8 /* TTTransformController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356B0AFF1D5B0A6800DCE3A8 /* TTTransformController.m */; };
+		356F57FC1D5C13C700D8406D /* TTHiddenAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356F57FB1D5C13C700D8406D /* TTHiddenAnimationController.m */; };
+		356F58001D5C144D00D8406D /* TTSpecialLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356F57FF1D5C144D00D8406D /* TTSpecialLayerController.m */; };
+		356F58031D5C161D00D8406D /* TTChangeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 356F58021D5C161D00D8406D /* TTChangeColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,12 @@
 		356A33821D4C916D0022414B /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
 		356B0AFE1D5B0A6800DCE3A8 /* TTTransformController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTransformController.h; sourceTree = "<group>"; };
 		356B0AFF1D5B0A6800DCE3A8 /* TTTransformController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTransformController.m; sourceTree = "<group>"; };
+		356F57FA1D5C13C700D8406D /* TTHiddenAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHiddenAnimationController.h; sourceTree = "<group>"; };
+		356F57FB1D5C13C700D8406D /* TTHiddenAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTHiddenAnimationController.m; sourceTree = "<group>"; };
+		356F57FE1D5C144D00D8406D /* TTSpecialLayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSpecialLayerController.h; sourceTree = "<group>"; };
+		356F57FF1D5C144D00D8406D /* TTSpecialLayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSpecialLayerController.m; sourceTree = "<group>"; };
+		356F58011D5C161D00D8406D /* TTChangeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTChangeColor.h; sourceTree = "<group>"; };
+		356F58021D5C161D00D8406D /* TTChangeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTChangeColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +202,8 @@
 		356A33761D4C530B0022414B /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				356F57F91D5C133800D8406D /* 第七章_隐式动画 */,
+				356F57FD1D5C141900D8406D /* 第六章_专用图层 */,
 				356B0AFD1D5B0A3F00DCE3A8 /* 第五章_变换 */,
 				3562FEE91D4F300100D9C26E /* 第四章_图形几何学 */,
 				3562FEE11D4EE12600D9C26E /* 第三章_视觉效果 */,
@@ -228,6 +239,26 @@
 				356B0AFF1D5B0A6800DCE3A8 /* TTTransformController.m */,
 			);
 			name = "第五章_变换";
+			sourceTree = "<group>";
+		};
+		356F57F91D5C133800D8406D /* 第七章_隐式动画 */ = {
+			isa = PBXGroup;
+			children = (
+				356F57FA1D5C13C700D8406D /* TTHiddenAnimationController.h */,
+				356F57FB1D5C13C700D8406D /* TTHiddenAnimationController.m */,
+				356F58011D5C161D00D8406D /* TTChangeColor.h */,
+				356F58021D5C161D00D8406D /* TTChangeColor.m */,
+			);
+			name = "第七章_隐式动画";
+			sourceTree = "<group>";
+		};
+		356F57FD1D5C141900D8406D /* 第六章_专用图层 */ = {
+			isa = PBXGroup;
+			children = (
+				356F57FE1D5C144D00D8406D /* TTSpecialLayerController.h */,
+				356F57FF1D5C144D00D8406D /* TTSpecialLayerController.m */,
+			);
+			name = "第六章_专用图层";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,11 +399,14 @@
 				356B0B001D5B0A6800DCE3A8 /* TTTransformController.m in Sources */,
 				3562FEE41D4EE19300D9C26E /* TTVisualEffectController.m in Sources */,
 				356A33811D4C8FD60022414B /* TTLayerImageController.m in Sources */,
+				356F58031D5C161D00D8406D /* TTChangeColor.m in Sources */,
+				356F57FC1D5C13C700D8406D /* TTHiddenAnimationController.m in Sources */,
 				356A33451D4C4E880022414B /* AppDelegate.m in Sources */,
 				356A33421D4C4E880022414B /* main.m in Sources */,
 				3562FEEC1D4F304A00D9C26E /* TTAboutShapeController.m in Sources */,
 				356A337D1D4C6AC40022414B /* BaseController.m in Sources */,
 				356A334E1D4C4E880022414B /* TestCoreAnimation.xcdatamodeld in Sources */,
+				356F58001D5C144D00D8406D /* TTSpecialLayerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -69,8 +69,6 @@
     transform3d = CATransform3DRotate(transform3d, M_PI_4, 0, 1, 0);
     
     
-    transform3d.m34 = -1 / 500.0;
-    
     bgView.layer.transform = transform3d;
     
 }
