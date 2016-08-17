@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35457FC01D6452A200515D37 /* TTShapeLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35457FBF1D6452A200515D37 /* TTShapeLayerView.m */; };
 		3562FEE41D4EE19300D9C26E /* TTVisualEffectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3562FEE31D4EE19300D9C26E /* TTVisualEffectController.m */; };
 		3562FEE61D4EF85000D9C26E /* account_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3562FEE51D4EF85000D9C26E /* account_selected@3x.png */; };
 		3562FEE81D4EF85800D9C26E /* account_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3562FEE71D4EF85800D9C26E /* account_selected@2x.png */; };
@@ -48,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35457FBE1D6452A200515D37 /* TTShapeLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTShapeLayerView.h; sourceTree = "<group>"; };
+		35457FBF1D6452A200515D37 /* TTShapeLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTShapeLayerView.m; sourceTree = "<group>"; };
 		3562FEE21D4EE19300D9C26E /* TTVisualEffectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTVisualEffectController.h; sourceTree = "<group>"; };
 		3562FEE31D4EE19300D9C26E /* TTVisualEffectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTVisualEffectController.m; sourceTree = "<group>"; };
 		3562FEE51D4EF85000D9C26E /* account_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account_selected@3x.png"; sourceTree = "<group>"; };
@@ -257,6 +260,8 @@
 			children = (
 				356F57FE1D5C144D00D8406D /* TTSpecialLayerController.h */,
 				356F57FF1D5C144D00D8406D /* TTSpecialLayerController.m */,
+				35457FBE1D6452A200515D37 /* TTShapeLayerView.h */,
+				35457FBF1D6452A200515D37 /* TTShapeLayerView.m */,
 			);
 			name = "第六章_专用图层";
 			sourceTree = "<group>";
@@ -406,6 +411,7 @@
 				3562FEEC1D4F304A00D9C26E /* TTAboutShapeController.m in Sources */,
 				356A337D1D4C6AC40022414B /* BaseController.m in Sources */,
 				356A334E1D4C4E880022414B /* TestCoreAnimation.xcdatamodeld in Sources */,
+				35457FC01D6452A200515D37 /* TTShapeLayerView.m in Sources */,
 				356F58001D5C144D00D8406D /* TTSpecialLayerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
