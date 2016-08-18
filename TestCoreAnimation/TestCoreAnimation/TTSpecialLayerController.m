@@ -9,6 +9,7 @@
 #import "TTSpecialLayerController.h"
 
 #import "TTShapeLayerView.h"
+#import "TTReplicatorView.h"
 
 @interface TTSpecialLayerController ()
 
@@ -69,17 +70,15 @@
     
     
     // 重复图层
-    CAReplicatorLayer *rLayer = [CAReplicatorLayer layer];
-    rLayer.frame = CGRectMake(0, 220, self.view.bounds.size.width, 350);
-    [self.view.layer addSublayer:rLayer];
-    rLayer.backgroundColor = [UIColor lightGrayColor].CGColor;
+    TTReplicatorView *replicatorView = [[TTReplicatorView alloc] initWithFrame:CGRectMake(0, 220, self.view.bounds.size.width/2, 150)];
+    [self.view addSubview:replicatorView];
+    replicatorView.backgroundColor = [UIColor lightGrayColor];
+    
+    
+    CAReplicatorLayer *rLayer = replicatorView.replicatorLayer;
     
     // 重复次数
     rLayer.instanceCount = 10;
-    
-    //为每个对象注册一个transform
-//    CATransform3D transform = CATransform3DMakeTranslation(30, 0, 0);
-//    rLayer.instanceTransform = transform;
     
     CATransform3D transform = CATransform3DIdentity;
     transform = CATransform3DTranslate(transform, 0, 20, 0);
@@ -92,13 +91,39 @@
     rLayer.instanceBlueOffset = 0.1;
     
     
-    CALayer *layer = [CALayer layer];
-    layer.backgroundColor = [UIColor whiteColor].CGColor;
-//    layer.frame = CGRectMake(10, 10, 20, 20);
-    layer.frame = CGRectMake(rLayer.position.x-10, 140, 20, 20);
-    [rLayer addSublayer:layer];
+    UIView *subView = [[UIView alloc] init];
+    [replicatorView addSubview:subView];
+    subView.frame = CGRectMake(rLayer.position.x-10, 10, 20, 20);
+    subView.backgroundColor = [UIColor redColor];
+    
+    CALayer *ssLayer = [CALayer layer];
+    ssLayer.backgroundColor = [UIColor whiteColor].CGColor;
+    ssLayer.frame = CGRectMake(5, 5, 10, 10);
+    [subView.layer addSublayer:ssLayer];
     
     
+    
+    // 反射
+    TTReplicatorView *reflectView = [[TTReplicatorView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(replicatorView.frame)+30, CGRectGetWidth(self.view.frame), 200)];
+    [self.view addSubview:reflectView];
+    reflectView.layer.borderWidth = 1;
+    reflectView.layer.borderColor = [UIColor lightGrayColor].CGColor;
+    reflectView.clipsToBounds = YES;
+//
+    CAReplicatorLayer *reflectLayer = reflectView.replicatorLayer;
+    reflectLayer.instanceCount = 2;
+    reflectLayer.instanceAlphaOffset = -0.6;
+//
+    CATransform3D transform2 = CATransform3DMakeTranslation(0, 80, 0);
+    transform2 = CATransform3DRotate(transform2, M_PI, 1, 0, 0);
+    reflectLayer.instanceTransform = transform2;
+    
+    
+    UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"111.jpg"]];
+    [reflectView addSubview:imgView];
+    imgView.frame = CGRectMake(20, 60, 100, 80);
+    imgView.clipsToBounds = YES;
+    imgView.contentMode = UIViewContentModeScaleAspectFill;
     
     
     

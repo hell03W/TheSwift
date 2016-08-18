@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		35457FC01D6452A200515D37 /* TTShapeLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35457FBF1D6452A200515D37 /* TTShapeLayerView.m */; };
+		35457FC31D6549DC00515D37 /* TTReplicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35457FC21D6549DC00515D37 /* TTReplicatorView.m */; };
+		35457FC51D654EDD00515D37 /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35457FC41D654EDD00515D37 /* 111.jpg */; };
 		3562FEE41D4EE19300D9C26E /* TTVisualEffectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3562FEE31D4EE19300D9C26E /* TTVisualEffectController.m */; };
 		3562FEE61D4EF85000D9C26E /* account_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3562FEE51D4EF85000D9C26E /* account_selected@3x.png */; };
 		3562FEE81D4EF85800D9C26E /* account_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3562FEE71D4EF85800D9C26E /* account_selected@2x.png */; };
@@ -51,6 +53,9 @@
 /* Begin PBXFileReference section */
 		35457FBE1D6452A200515D37 /* TTShapeLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTShapeLayerView.h; sourceTree = "<group>"; };
 		35457FBF1D6452A200515D37 /* TTShapeLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTShapeLayerView.m; sourceTree = "<group>"; };
+		35457FC11D6549DC00515D37 /* TTReplicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTReplicatorView.h; sourceTree = "<group>"; };
+		35457FC21D6549DC00515D37 /* TTReplicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTReplicatorView.m; sourceTree = "<group>"; };
+		35457FC41D654EDD00515D37 /* 111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 111.jpg; sourceTree = "<group>"; };
 		3562FEE21D4EE19300D9C26E /* TTVisualEffectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTVisualEffectController.h; sourceTree = "<group>"; };
 		3562FEE31D4EE19300D9C26E /* TTVisualEffectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTVisualEffectController.m; sourceTree = "<group>"; };
 		3562FEE51D4EF85000D9C26E /* account_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account_selected@3x.png"; sourceTree = "<group>"; };
@@ -159,6 +164,7 @@
 		356A333F1D4C4E880022414B /* TestCoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				35457FC41D654EDD00515D37 /* 111.jpg */,
 				356A33761D4C530B0022414B /* Items */,
 				356A33431D4C4E880022414B /* AppDelegate.h */,
 				356A33441D4C4E880022414B /* AppDelegate.m */,
@@ -262,6 +268,8 @@
 				356F57FF1D5C144D00D8406D /* TTSpecialLayerController.m */,
 				35457FBE1D6452A200515D37 /* TTShapeLayerView.h */,
 				35457FBF1D6452A200515D37 /* TTShapeLayerView.m */,
+				35457FC11D6549DC00515D37 /* TTReplicatorView.h */,
+				35457FC21D6549DC00515D37 /* TTReplicatorView.m */,
 			);
 			name = "第六章_专用图层";
 			sourceTree = "<group>";
@@ -370,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				356A33831D4C916D0022414B /* image1.png in Resources */,
+				35457FC51D654EDD00515D37 /* 111.jpg in Resources */,
 				3562FEE81D4EF85800D9C26E /* account_selected@2x.png in Resources */,
 				356A33531D4C4E880022414B /* LaunchScreen.storyboard in Resources */,
 				3562FEE61D4EF85000D9C26E /* account_selected@3x.png in Resources */,
@@ -400,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				356A33481D4C4E880022414B /* ViewController.m in Sources */,
+				35457FC31D6549DC00515D37 /* TTReplicatorView.m in Sources */,
 				356A33791D4C54950022414B /* TTFristTreeStructController.m in Sources */,
 				356B0B001D5B0A6800DCE3A8 /* TTTransformController.m in Sources */,
 				3562FEE41D4EE19300D9C26E /* TTVisualEffectController.m in Sources */,
