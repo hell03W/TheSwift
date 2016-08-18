@@ -45,7 +45,9 @@
                        @"第四章 图形几何学",
                        @"第五章 变换",
                        @"第六章 专用图层",
-                       @"第七章 隐式动画"];
+                       @"第七章 隐式动画",
+                       @"第八章 显式动画",
+                       @"第九章 图层时间"];
     }
     return _dataArray;
 }
@@ -58,7 +60,9 @@
                         @"TTAboutShapeController",
                         @"TTTransformController",
                         @"TTSpecialLayerController",
-                        @"TTHiddenAnimationController"];
+                        @"TTHiddenAnimationController",
+                        @"TTDisplayAnimationController",
+                        @"TTLayerTimeController"];
     }
     return _classArray;
 }
