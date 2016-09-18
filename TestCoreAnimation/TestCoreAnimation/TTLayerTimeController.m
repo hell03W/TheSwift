@@ -8,7 +8,7 @@
 
 #import "TTLayerTimeController.h"
 
-@interface TTLayerTimeController ()
+@interface TTLayerTimeController () <CAMediaTiming>
 
 @end
 
@@ -22,6 +22,9 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    
+    
 }
 
 /*

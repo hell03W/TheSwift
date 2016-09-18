@@ -107,8 +107,10 @@
     // 创建path动画
     CAKeyframeAnimation *keyAnimation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
     keyAnimation.path = bPath.CGPath;
-    keyAnimation.duration = 3.f;
+//    keyAnimation.duration = 3.f;
     keyAnimation.rotationMode = kCAAnimationRotateAuto;
+    
+    
     
     
     
@@ -116,7 +118,7 @@
     
     // 改变颜色的动画
     CAKeyframeAnimation *colorAnimation = [CAKeyframeAnimation animationWithKeyPath:@"backgroundColor"];
-    colorAnimation.duration = 7;
+//    colorAnimation.duration = 3.f;
     
     colorAnimation.values = @[(__bridge id)self.colorView.backgroundColor.CGColor,
                             (__bridge id)[UIColor blueColor].CGColor,
@@ -126,10 +128,14 @@
                             (__bridge id)[UIColor cyanColor].CGColor,
                             (__bridge id)[UIColor yellowColor].CGColor];
     
+    
     // animationGroup 代码.
     CAAnimationGroup *animationGroup = [CAAnimationGroup animation];
-    animationGroup.duration = 7;
+    animationGroup.duration = 3.f;
     animationGroup.animations = @[keyAnimation, colorAnimation];
+    
+    animationGroup.timeOffset = 1.5;
+    
     
     [plane.layer addAnimation:animationGroup forKey:nil];
     
