@@ -1,0 +1,33 @@
+
+
+待测试的动画:
+1. 苹果电脑上的, 等待时候鼠标转动动画.    CAReplicatorLayer
+2. qq个人资料, 点赞动画.   CAKeyFrameAnimation
+
+
+
+
+
+
+
+
+
+
+
+
+测试并实现动画时候, 遇到的问题疑问:
+1. 有点不太清楚 CAAnimationGroup的用法和用途.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
