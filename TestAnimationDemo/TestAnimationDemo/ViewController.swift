@@ -13,11 +13,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     lazy private var tableView: UITableView = UITableView()
     lazy private var dataArray = {
         
-        return ["1. 模仿bugtags.com加载动画",]
+        return ["1. 模仿bugtags.com加载动画",
+                "2. 模仿mac等待动画"]
     }()
     lazy private var classArray = {
         
-        return ["DemoBugtagsController",]
+        return ["DemoBugtagsController",
+                "DemoMacWaitController",]
     }
     
 
@@ -60,7 +62,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let controller: BaseController
         if indexPath.row == 0 {
             controller = DemoBugtagsController()
-        }else{
+        }
+        else if indexPath.row == 1 {
+            controller = DemoMacWaitController()
+        }
+        else{
             controller = BaseController()
         }
 

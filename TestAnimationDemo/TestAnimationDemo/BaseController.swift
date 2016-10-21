@@ -15,6 +15,17 @@ class BaseController: UIViewController {
 
         // Do any additional setup after loading the view.
         view.backgroundColor = UIColor.white
+        
+        configUI();
+        configAnimation()
+    }
+    
+    // 空实现, 子类具体实现
+    func configUI() {
+        
+    }
+    func configAnimation() {
+        
     }
 
     override func didReceiveMemoryWarning() {

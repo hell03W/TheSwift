@@ -18,12 +18,11 @@ class DemoBugtagsController: BaseController {
         
         view.backgroundColor = UIColor.lightGray
 
-        configUI()
-        configAnimation()
+        
     }
     
     /// 配置动画元素
-    func configUI() {
+    override func configUI() {
         
         // 定义一个view, 放置两个圆形的带颜色的layer
         let bgView = UIView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
@@ -45,7 +44,7 @@ class DemoBugtagsController: BaseController {
     }
     
     /// 配置动画
-    func configAnimation() {
+    override func configAnimation() {
         
         let duration: CFTimeInterval = 1
         
