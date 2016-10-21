@@ -14,12 +14,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     lazy private var dataArray = {
         
         return ["1. 模仿bugtags.com加载动画",
-                "2. 模仿mac等待动画"]
+                "2. 模仿mac等待动画",
+                "3. QQ点赞功能"]
     }()
     lazy private var classArray = {
         
         return ["DemoBugtagsController",
-                "DemoMacWaitController",]
+                "DemoMacWaitController",
+                "DemDemoQQFavoriteController"]
     }
     
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		350E194B1DB8B24E00272544 /* DemoMacWaitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E194A1DB8B24E00272544 /* DemoMacWaitController.swift */; };
+		355114131DBA165300367D56 /* DemDemoQQFavoriteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355114121DBA165300367D56 /* DemDemoQQFavoriteController.swift */; };
 		356D48381DB47D08007163EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356D48371DB47D08007163EC /* AppDelegate.swift */; };
 		356D483A1DB47D08007163EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356D48391DB47D08007163EC /* ViewController.swift */; };
 		356D483D1DB47D08007163EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356D483B1DB47D08007163EC /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		350E194A1DB8B24E00272544 /* DemoMacWaitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoMacWaitController.swift; sourceTree = "<group>"; };
+		355114121DBA165300367D56 /* DemDemoQQFavoriteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemDemoQQFavoriteController.swift; sourceTree = "<group>"; };
 		356D48341DB47D08007163EC /* TestAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		356D48371DB47D08007163EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		356D48391DB47D08007163EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,14 @@
 				350E194A1DB8B24E00272544 /* DemoMacWaitController.swift */,
 			);
 			name = "2.mac等待动画";
+			sourceTree = "<group>";
+		};
+		3551140F1DBA15DE00367D56 /* 3.qq个人资料点赞 */ = {
+			isa = PBXGroup;
+			children = (
+				355114121DBA165300367D56 /* DemDemoQQFavoriteController.swift */,
+			);
+			name = "3.qq个人资料点赞";
 			sourceTree = "<group>";
 		};
 		356D482B1DB47D08007163EC = {
@@ -150,6 +160,7 @@
 		356D486A1DB47D74007163EC /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				3551140F1DBA15DE00367D56 /* 3.qq个人资料点赞 */,
 				350E19491DB8B21700272544 /* 2.mac等待动画 */,
 				356D486B1DB47D83007163EC /* 1.bugtags刷新动画 */,
 			);
@@ -300,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355114131DBA165300367D56 /* DemDemoQQFavoriteController.swift in Sources */,
 				356D483A1DB47D08007163EC /* ViewController.swift in Sources */,
 				356D48381DB47D08007163EC /* AppDelegate.swift in Sources */,
 				356D48691DB47D54007163EC /* BaseController.swift in Sources */,

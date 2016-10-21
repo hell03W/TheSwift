@@ -16,6 +16,8 @@ class DemoMacWaitController: BaseController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        configMoon()
     }
     
     //MARK: 配置界面
@@ -90,5 +92,76 @@ class DemoMacWaitController: BaseController {
         animation.duration = 0.8
 //        bgView.layer.add(animation, forKey: nil)
     }
+    
+    
+    
+    /// 测试, 画一个月牙形状
+    /*
+     思路:
+     "画"两个圆形, 相交, 建立坐标轴, 依次取出对应的点, 组成一个月牙形状
+     */
+    func configMoon() {
+        
+        let radius: CGFloat = 50
+        let arcCenter1 = CGPoint(x: 100, y: 200);
+        let arcCenter2 = CGPoint(x: 120, y: 200);
+        
+        
+        let round1 = UIBezierPath(arcCenter: arcCenter1, radius: radius, startAngle: 0, endAngle: CGFloat(M_PI * 2), clockwise: true)
+        let round2 = UIBezierPath(arcCenter: arcCenter2, radius: radius, startAngle: 0, endAngle: CGFloat(M_PI * 2), clockwise: true)
+        
+        round1.append(round2)
+        
+        let shapeLayer = CAShapeLayer()
+        view.layer.addSublayer(shapeLayer)
+        shapeLayer.strokeColor = UIColor.red.cgColor
+        shapeLayer.fillColor = UIColor.clear.cgColor
+        shapeLayer.lineWidth = 1
+        shapeLayer.path = round1.cgPath
+        
+        
+        
+        
+        
+        //
+        let resultPath = UIBezierPath()
+        // 1. 先移动到顶点位置
+        
+        
+        
+        let resultShape = CAShapeLayer()
+        view.layer.addSublayer(resultShape)
+        resultShape.strokeColor = UIColor.blue.cgColor
+        resultShape.fillColor = UIColor.clear.cgColor
+        resultShape.lineWidth = 1
+    }
+    
+    
+    //根据  圆的y坐标/圆心/半径, 返回x坐标
+    // 默认是以圆心为原点的方程, 计算结束后, 加上圆心位置
+    func calcPositionX(arcCenter: CGPoint, radius: CGFloat, y: CGFloat) -> CGFloat {
+        
+        let yPosition = y - arcCenter.y
+        
+        var x = sqrt(pow(radius, 2) - pow(yPosition, 2))
+        
+        if yPosition < 0 {
+            x = -x
+        }
+        
+        return x + arcCenter.x
+    }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
